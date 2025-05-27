@@ -1,0 +1,13 @@
+CREATE TABLE T_USUARIO(
+cod_usuario number not null primary key,
+nm_usuario varchar2(150) not null,
+apelido varchar2(20) not null,
+ds_email varchar2(150) not null,
+nr_celular varchar2(14) not null,
+nr_cpf varchar2(11) not null,
+ds_senha varchar2(30) not null,
+saldo decimal(10,2))
+
+CREATE SEQUENCE SQ_T_USUARIO MINVALUE 1 START WITH 1 INCREMENT BY 1;
+
+ALTER TABLE T_CONTA ADD CONSTRAINT FK_T_CONTA_T_USUARIO FOREIGN KEY(cd_usuario) REFERENCES T_USUARIO(cod_usuario);

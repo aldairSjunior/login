@@ -1,0 +1,149 @@
+@font-face {
+    font-family: 'inria-serif';
+    src: url(../fonts/InriaSerif-Regular.ttf);
+}
+
+body{
+    background-color: rgba(211, 233, 255, 1);
+
+}
+
+.div-logo-login{
+    height: 100%;
+}
+
+.logo-login{
+    position:relative;
+    width: 45%;
+    left: 50%;
+    top: 80px;
+    transform: translate(-50%, -7%);
+}
+
+.login{
+    height: 700px;
+}
+
+.div-login{
+    background-color: rgba(0, 118, 129, 0.34);
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10%;
+    border-radius: 15px;
+    width: 70%;
+    height: 650px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.campo-login{
+    width: 100%;
+    padding: 5%;
+    font-family: inria-serif;
+    font-size: 120%;
+    font-weight: 500;
+    margin-top: -10%;
+    margin-bottom: 10%;
+}
+
+.recuperar-senha{
+    margin-top: -13%;
+    color: rgba(2, 98, 107);
+    font-family: inria-serif;
+}
+
+.recuperar-senha:hover{
+    cursor: pointer;
+    color: rgba(16, 24, 32, 1);
+}
+
+.facebook:hover{
+    cursor: pointer;
+    color: rgba(0, 118, 129, 1);
+}
+
+.google:hover{
+    cursor: pointer;
+    color: rgba(0, 118, 129, 1);
+}
+.google{
+    margin-top: 20px;
+    margin-left: 20px;
+    color: rgba(16, 24, 32, 1);
+}
+
+.facebook{
+    margin-top: 20px;
+    color: rgba(16, 24, 32, 1);
+}
+
+#botao-login{
+    background-color: rgba(16, 24, 32, 1);
+    width: 60%;
+    max-width: 180px;
+    margin-top: 50px;
+    font-size: 110%;
+}
+#botao-login:hover{
+    background-color: rgba(0, 118, 129, 1);
+}
+
+.criar-conta{
+    margin-top: -14%;
+    color: rgb(2, 98, 107);
+    font-family: inria-serif;
+}
+
+.criar-conta:hover{
+    cursor: pointer;
+    color: rgba(16, 24, 32, 1);
+}
+
+@media (max-width: 1700px){
+    .div-login{
+        height: 650px;
+    }
+    .logo-login{
+        width: 25%;
+    }
+}
+
+@media (max-width: 1400px){
+    .div-login{
+        height: 600px;
+    }
+    .logo-login{
+        width: 25%;
+    }
+}
+
+@media (max-width: 1100px){
+    .div-login{
+        height: 550px;
+    }
+    .logo-login{
+        width: 30%;
+    }
+}
+
+@media (max-width: 800px){
+    .div-login{
+        height: 500px;
+    }
+    .logo-login{
+        width: 35%;
+    }
+}
+
+@media (max-width: 500px){
+    .div-login{
+        height: 450px;
+    }
+    .facebook, .google{
+        width: 35%;
+    }
+}
