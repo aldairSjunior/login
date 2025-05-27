@@ -1,12 +1,9 @@
-package br.com.fiap.fintech.teste;
+package br.com.fiap.login.teste;
 
-import br.com.fiap.fintech.dao.UsuarioDao;
-import br.com.fiap.fintech.exception.DBException;
-import br.com.fiap.fintech.factory.DaoFactory;
-import br.com.fiap.fintech.model.Usuario;
-
-import java.time.LocalDate;
-import java.util.List;
+import br.com.fiap.login.dao.UsuarioDao;
+import br.com.fiap.login.exception.DBException;
+import br.com.fiap.login.factory.DaoFactory;
+import br.com.fiap.login.model.Usuario;
 
 public class UsuarioDaoTeste {
     public static void main(String[] args) {

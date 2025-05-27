@@ -1,10 +1,9 @@
-package br.com.fiap.fintech.bo;
+package br.com.fiap.login.bo;
 
-import br.com.fiap.fintech.exception.EmailException;
+import br.com.fiap.login.exception.EmailException;
 import jakarta.mail.*;
 import jakarta.mail.internet.InternetAddress;
 import jakarta.mail.internet.MimeMessage;
-import br.com.fiap.fintech.model.Usuario;
 
 
 import java.util.Properties;

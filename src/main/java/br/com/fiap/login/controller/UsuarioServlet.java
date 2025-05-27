@@ -1,24 +1,20 @@
-package br.com.fiap.fintech.controller;
+package br.com.fiap.login.controller;
 
-import br.com.fiap.fintech.exception.DBException;
-import br.com.fiap.fintech.factory.DaoFactory;
+import br.com.fiap.login.exception.DBException;
+import br.com.fiap.login.factory.DaoFactory;
 
-import br.com.fiap.fintech.dao.UsuarioDao;
-import br.com.fiap.fintech.model.Usuario;
+import br.com.fiap.login.dao.UsuarioDao;
+import br.com.fiap.login.model.Usuario;
 import jakarta.servlet.ServletConfig;
 import jakarta.servlet.ServletException;
 import jakarta.servlet.annotation.WebServlet;
 import jakarta.servlet.http.HttpServlet;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
-import br.com.fiap.fintech.util.CriptografiaUtils;
-import jakarta.servlet.http.HttpSession;
 
 
 import java.io.IOException;
-import java.security.NoSuchAlgorithmException;
 import java.text.DecimalFormat;
-import java.time.LocalDate;
 
 @WebServlet("/usuarios")
 public class UsuarioServlet extends HttpServlet {

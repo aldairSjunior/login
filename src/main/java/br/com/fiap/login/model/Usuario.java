@@ -1,6 +1,6 @@
-package br.com.fiap.fintech.model;
+package br.com.fiap.login.model;
 
-import br.com.fiap.fintech.util.CriptografiaUtils;
+import br.com.fiap.login.util.CriptografiaUtils;
 
 public class Usuario {
 

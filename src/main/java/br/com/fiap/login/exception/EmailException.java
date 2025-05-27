@@ -1,4 +1,4 @@
-package br.com.fiap.fintech.exception;
+package br.com.fiap.login.exception;
 
 public class EmailException extends Exception {
 

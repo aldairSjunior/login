@@ -1,4 +1,4 @@
-package br.com.fiap.fintech.util;
+package br.com.fiap.login.util;
 
 import java.io.UnsupportedEncodingException;
 import java.math.BigInteger;

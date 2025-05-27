@@ -1,10 +1,10 @@
-package br.com.fiap.fintech.controller;
+package br.com.fiap.login.controller;
 
-import br.com.fiap.fintech.bo.EmailBo;
-import br.com.fiap.fintech.dao.UsuarioDao;
-import br.com.fiap.fintech.exception.EmailException;
-import br.com.fiap.fintech.factory.DaoFactory;
-import br.com.fiap.fintech.model.Usuario;
+import br.com.fiap.login.bo.EmailBo;
+import br.com.fiap.login.dao.UsuarioDao;
+import br.com.fiap.login.exception.EmailException;
+import br.com.fiap.login.factory.DaoFactory;
+import br.com.fiap.login.model.Usuario;
 import jakarta.servlet.ServletException;
 import jakarta.servlet.annotation.WebServlet;
 import jakarta.servlet.http.HttpServlet;

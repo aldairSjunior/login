@@ -1,7 +1,7 @@
-package br.com.fiap.fintech.dao;
+package br.com.fiap.login.dao;
 
-import br.com.fiap.fintech.exception.DBException;
-import br.com.fiap.fintech.model.Usuario;
+import br.com.fiap.login.exception.DBException;
+import br.com.fiap.login.model.Usuario;
 
 public interface UsuarioDao {
     void cadastrarUsuario(Usuario usuario) throws DBException;

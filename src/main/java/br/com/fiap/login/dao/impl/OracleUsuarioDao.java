@@ -1,10 +1,10 @@
-package br.com.fiap.fintech.dao.impl;
+package br.com.fiap.login.dao.impl;
 
-import br.com.fiap.fintech.dao.ConnectionManager;
-import br.com.fiap.fintech.dao.UsuarioDao;
-import br.com.fiap.fintech.exception.DBException;
-import br.com.fiap.fintech.model.Usuario;
-import br.com.fiap.fintech.util.CriptografiaUtils;
+import br.com.fiap.login.dao.ConnectionManager;
+import br.com.fiap.login.dao.UsuarioDao;
+import br.com.fiap.login.exception.DBException;
+import br.com.fiap.login.model.Usuario;
+import br.com.fiap.login.util.CriptografiaUtils;
 
 import java.io.UnsupportedEncodingException;
 import java.security.NoSuchAlgorithmException;

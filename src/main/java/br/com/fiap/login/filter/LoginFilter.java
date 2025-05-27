@@ -1,4 +1,4 @@
-package br.com.fiap.fintech.filter;
+package br.com.fiap.login.filter;
 
 import jakarta.servlet.*;
 import jakarta.servlet.annotation.WebFilter;

@@ -1,6 +1,6 @@
-package br.com.fiap.fintech.teste;
+package br.com.fiap.login.teste;
 
-import br.com.fiap.fintech.util.CriptografiaUtils;
+import br.com.fiap.login.util.CriptografiaUtils;
 
 import java.io.UnsupportedEncodingException;
 import java.security.NoSuchAlgorithmException;
