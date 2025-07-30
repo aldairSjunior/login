@@ -1,1 +1,0 @@
-Trabalho desenvolvido durante o primeiro ano do curso de análise e desenvolvimento de sistemas da FIAP. O projeto consiste em um sistema de login e seção de usuário desenvolvida com java, e pronto para se transformar em um projeto maior de gestão financeira
